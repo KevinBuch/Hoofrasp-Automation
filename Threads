@@ -1,0 +1,60 @@
+ Program
+   Variables Setup
+   Robot Program
+     Script: 001_Kokend.script
+   Thread_4
+     Loop
+       If digital_in[4]â‰Ÿ True 
+         Schakelaarâ‰” True 
+       Else
+         Schakelaarâ‰” False 
+       If digital_in[5]â‰Ÿ True 
+         Knop_1â‰” True 
+         Knop_2â‰” False 
+         Knop_3â‰” False 
+       If digital_in[6]â‰Ÿ True 
+         Knop_1â‰” False 
+         Knop_2â‰” True 
+         Knop_3â‰” False 
+       If digital_in[7]â‰Ÿ True 
+         Knop_1â‰” False 
+         Knop_2â‰” False 
+         Knop_3â‰” True 
+       sync()
+   Thread_3
+     Loop
+       If digital_in[2]â‰Ÿ True 
+         Loopband1â‰” True 
+       Else
+         Loopband1â‰” False 
+       If digital_in[3]â‰Ÿ True 
+         Loopband2â‰” True 
+       Else
+         Loopband2â‰” False 
+       sync()
+   Thread_2
+     Loop
+       If digital_in[0]â‰Ÿ True 
+         Inductie1â‰” True 
+         Wait: 0.5
+         Set DO[4]=On
+       Else
+         Inductie1â‰” False 
+         Set DO[4]=Off
+       If digital_in[1]â‰Ÿ True 
+         Inductie2â‰” True 
+         Wait: 0.5
+         Set DO[5]=On
+       Else
+         Inductie2â‰” False 
+         Set DO[5]=Off
+       sync()
+   Thread_1
+     Loop
+       If digital_in[0] and digital_in[2]â‰Ÿ True 
+         Set DO[6]=Off
+       ElseIf digital_in[1] and digital_in[3]â‰Ÿ True 
+         Set DO[6]=Off
+       Else
+         Set DO[6]=On
+       sync()
