@@ -1,0 +1,469 @@
+    OvM1_1 = p[1.3100 , -0.1571 , 0.0696 , 0.032 , -0.056 , -0.674]          # overcut uit magneet 1
+    OvM1_2 = p[1.3100 , -0.1571 , 0.0696 , 0.032 , -0.056 , -0.674]         # overcut tussenstap 1 magneet 1
+    OvM1_3 = p[1.2132 , -0.1571 , 0.0532 , 0.028 , -0.028 , -0.674]        # overcut tussenstap 2 magneet 1
+    OvM1_4 = p[1.2008 , -0.1571 , 0.0375 , 0.016 , 0.016 , -0.674]                   # overcut in magneet 1
+    
+    OvM2_1 = p[1.3100 , -0.2571 , 0.0696 , 0.032 , -0.056 , -0.674]          # overcut uit magneet 2
+    OvM2_2 = p[1.3100 , -0.2571 , 0.0696 , 0.032 , -0.056 , -0.674]         # overcut tussenstap 1 magneet 2
+    OvM2_3 = p[1.2132 , -0.2571 , 0.0532 , 0.028 , -0.028 , -0.674]        # overcut tussenstap 2 magneet 2
+    OvM2_4 = p[1.2008 , -0.2571 , 0.0375 , 0.016 , 0.016 , -0.674]                   # overcut in magneet 2
+    
+    UpM1_1 = p[-0.0102 , -0.8045 , 0.6586 , 0.693 , 0.236 , 2.388]             # upcut uit magneet 1
+    UpM1_2 = p[0.1274 , -0.8045 , 0.5423 , 0.644 , 0.219 , 2.400]             # upcut tussenstap 1 magneet 1
+    UpM1_3 = p[0.1745 , -0.8045 , 0.5020 , 0.609 , 0.207 , 2.407]          # upcut tussenstap 2 magneet 1
+    UpM1_4 = p[0.1764 , -0.8045 , 0.4813 , 0.544 , 0.184 , 2.420]         # upcut in magneet 1
+    
+    UpM2_1 = p[-0.0102 , -0.7045 , 0.6586 , 0.693 , 0.236 , 2.388]             # upcut uit magneet 2
+    UpM2_2 = p[0.1274 , -0.7045 , 0.5423 , 0.644 , 0.219 , 2.400]             # upcut tussenstap 1 magneet 2
+    UpM2_3 = p[0.1745 , -0.7045 , 0.5020 , 0.609 , 0.207 , 2.407]          # upcut tussenstap 2 magneet 2
+    UpM2_4 = p[0.1764 , -0.7045 , 0.4813 , 0.544 , 0.184 , 2.420]         # upcut in magneet 2
+    
+    InM1_1 = p[-0.9361 , -0.2453 , -0.3366 , 0.605 , 0.182 , -3.75]        # glijbaan positie 1 magneet 1
+    InM1_2 = p[-0.9361 , -0.3310 , -0.3359 , 0.605 , 0.182 , -3.75]        # glijbaan positie 2 magneet 1
+    InM2_1 = p[-0.9361 , -0.1456 , -0.3363 , 0.605 , 0.182 , -3.75]        # glijbaan positie 1 magneet 2
+    InM2_2 = p[-0.9361 , -0.2308 , -0.3361 , 0.605 , 0.182 , -3.75]        # glijbaan positie 2 magneet 2
+    
+    TrM1_1 = p[-0.9201 , 0.8073 , -0.2551 , 0 , 0 , 2.456]                  # tray positie 1 magneet 1
+    TrM1_2 = p[-0.9201 , 0.7573 , -0.2551 , 0 , 0 , 2.456]                  # tray positie 2 magneet 1
+    TrM1_3 = p[-0.9201 , 0.7073 , -0.2551 , 0 , 0 , 2.456]                  # tray positie 3 magneet 1
+    TrM1_4 = p[-0.9201 , 0.6573 , -0.2551 , 0 , 0 , 2.456]                  # tray positie 4 magneet 1
+    TrM1_5 = p[-0.9201 , 0.6073 , -0.2551 , 0 , 0 , 2.456]                  # tray positie 5 magneet 1
+    TrM1_6 = p[-0.9201 , 0.5573 , -0.2551 , 0 , 0 , 2.456]                  # tray positie 6 magneet 1
+    TrM1_7 = p[-0.9201 , 0.5073 , -0.2551 , 0 , 0 , 2.456]                  # tray positie 7 magneet 1
+    TrM1_8 = p[-0.9201 , 0.4573 , -0.2551 , 0 , 0 , 2.456]                  # tray positie 8 magneet 1
+    TrM1_9 = p[-0.9201 , 0.4073 , -0.2551 , 0 , 0 , 2.456]                  # tray positie 9 magneet 1
+    TrM1_10 = p[-0.9201 , 0.3573 , -0.2551 , 0 , 0 , 2.456]                 # tray positie 10 magneet 1
+
+    TrM2_11 = p[-0.9201 , 0.4073 , -0.2551 , 0 , 0 , 2.456]                 # tray positie 11 magneet 2
+    TrM2_12 = p[-0.9201 , 0.3573 , -0.2551 , 0 , 0 , 2.456]                 # tray positie 12 magneet 2
+    
+    ApproachOver = p[1.3106 , -0.3571 , 0.0696 , 0.032 , -0.056 , -0.674]      # approach overcut
+    ApproachUp =   p[-0.0102 , -0.4691 , 0.6586 , 0.693 , 0.236 , 2.388]     # approach upcut
+    ApproachTray = p[-0.8974 , 0.5534 , 0.1023, 0 , 0 , 2.456]            # approach tray
+    ApproachGlij = p[-0.9803 , -0.2555, 0.1023, 0 , 0 , 2.456]     # approach glijbaan
+    Home1 = p[0.3457 , -0.3267 , 0.1023, 0 , 0 , 2.456]            # tussen positie 1
+    Home2 = p[0.9956 , -0.3267 , 0.1023, 0 , 0 , 2.456]           # tussen positie 2
+    
+    #Inputs------------
+    Inductie1 = False
+    Inductie2 = False
+    Loopband1 = False
+    Loopband2 = False
+    Schakelaar = False #Schakelaar
+    Knop_1 = False #Normal mode / knop link
+    Knop_2 = False #Overcut Only / knop mid
+    Knop_3 = False #Upcut Only / knop rechts
+    global Tray_pos = 1
+    
+    
+    
+    
+    #outputs---
+    M1_aan = 0
+    M1_uit = 1
+    M2_aan = 2
+    M2_uit = 3
+    Ventiel1 = 4
+    Ventiel2 = 5
+    Loopband = 6
+while True:
+  
+    
+    def M1_1_Oppak_Glij():
+           movej(ApproachGlij, r=0.1)
+           movej(InM1_1)
+           set_digital_out(M1_aan,True)
+           sleep(0.5)
+           set_digital_out(M1_aan,False)
+           movej(ApproachGlij, r=0.1)
+           movej(Home1, r=0.05)
+           movej(Home2, r=0.05)
+    end
+    
+    def M1_2_Oppak_Glij():
+           movej(ApproachGlij, r=0.1)
+           movej(InM1_2)
+           set_digital_out(M1_aan,True)
+           sleep(0.5)
+           set_digital_out(M1_aan,False)
+           movej(ApproachGlij, r=0.1)
+           movej(Home1, r=0.05)
+           movej(Home2, r=0.05)
+    end
+    
+    
+    def M2_1_Oppak_Glij():
+           movej(ApproachGlij, r=0.1)
+           movej(InM2_1)
+           set_digital_out(M2_aan,True)
+           sleep(0.5)
+           set_digital_out(M2_aan,False)
+           movej(ApproachGlij, r=0.1)
+           movej(Home1, r=0.05)
+           movej(Home2, r=0.05)
+    end
+    
+    def M2_2_Oppak_Glij():
+           movej(ApproachGlij, r=0.1)
+           movej(InM2_2)
+           set_digital_out(M2_aan,True)
+           sleep(0.5)
+           set_digital_out(M2_aan,False)
+           movej(ApproachGlij, r=0.1)
+           movej(Home1, r=0.05)
+           movej(Home2, r=0.05)
+    end
+    
+    
+    def Overcut_Inleg_M1():
+           movej(OvM1_1, r=0.02)
+           movej(OvM1_2, r=0.02)
+           movej(OvM1_3, r=0.02)
+           movej(OvM1_4)
+           set_digital_out(M1_uit,True)
+           sleep(0.5)
+           set_digital_out(M1_uit,False)
+           movej(OvM1_3, r=0.02)
+           movej(OvM1_2, r=0.02)
+           movej(OvM1_1, r=0.02)
+           movej(ApproachOver, r=0.02)
+    end
+    
+    def Overcut_Inleg_M2():
+           movej(OvM2_1, r=0.02)
+           movej(OvM2_2, r=0.02)
+           movej(OvM2_3, r=0.02)
+           movej(OvM2_4)
+           set_digital_out(M2_uit,True)
+           sleep(0.5)
+           set_digital_out(M2_uit,False)
+           movej(OvM2_3, r=0.02)
+           movej(OvM2_2, r=0.02)
+           movej(OvM2_1, r=0.02)
+           movej(ApproachOver, r=0.02)
+    
+    end
+    
+    def Overcut_Uit_M1():
+           movej(ApproachOver, r=0.02)
+           movej(OvM1_1, r=0.02)
+           movej(OvM1_2, r=0.02)
+           movej(OvM1_3, r=0.02)
+           movej(OvM1_4)
+           set_digital_out(M1_aan,True)
+           sleep(0.5)
+           set_digital_out(M1_aan,False)
+           movej(OvM1_3, r=0.02)
+           movej(OvM1_2, r=0.02)
+           movej(OvM1_1, r=0.02)
+           movej(ApproachOver, r=0.02)
+    end
+    
+    def Overcut_Uit_M2():
+           movej(ApproachOver, r=0.02)
+           movej(OvM2_1, r=0.02)
+           movej(OvM2_2, r=0.02)
+           movej(OvM2_3, r=0.02)
+           movej(OvM2_4)
+           set_digital_out(M2_aan,True)
+           sleep(0.5)
+           set_digital_out(M2_aan,False)
+           movej(OvM2_3, r=0.02)
+           movej(OvM2_2, r=0.02)
+           movej(OvM2_1, r=0.02)
+           movej(ApproachOver, r=0.02)
+    end
+    
+    def Upcut_Inleg_M1():
+           movej(ApproachUp, r=0.02)
+           movej(UpM1_1, r=0.02)
+           movej(UpM1_2, r=0.02)
+           movej(UpM1_3, r=0.02)
+           movej(UpM1_4)
+           set_digital_out(M1_uit,True)
+           sleep(0.5)
+           set_digital_out(M1_uit,False)
+           movej(UpM1_3, r=0.02)
+           movej(UpM1_2, r=0.02)
+           movej(UpM1_1, r=0.02)
+           movej(ApproachUp, r=0.02)
+    end
+    
+    def Upcut_Inleg_M2():
+           movej(ApproachUp, r=0.02)
+           movej(UpM2_1, r=0.02)
+           movej(UpM2_2, r=0.02)
+           movej(UpM2_3, r=0.02)
+           movej(UpM2_4)
+           set_digital_out(M2_uit,True)
+           sleep(0.5)
+           set_digital_out(M2_uit,False)
+           movej(UpM2_3, r=0.02)
+           movej(UpM2_2, r=0.02)
+           movej(UpM2_1, r=0.02)
+           movej(ApproachUp, r=0.02)
+    end
+    
+    def Upcut_Uit_M1():
+           movej(ApproachUp, r=0.02)
+           movej(UpM1_1, r=0.02)
+           movej(UpM1_2, r=0.02)
+           movej(UpM1_3, r=0.02)
+           movej(UpM1_4)
+           set_digital_out(M1_aan,True)
+           sleep(0.5)
+           set_digital_out(M1_aan,False)
+           movej(UpM1_3, r=0.02)
+           movej(UpM1_2, r=0.02)
+           movej(UpM1_1, r=0.02)
+           movej(ApproachUp, r=0.02)
+    end
+    
+    def Upcut_Uit_M2():
+           movej(ApproachUp, r=0.02)
+           movej(UpM1_1, r=0.02)
+           movej(UpM1_2, r=0.02)
+           movej(UpM1_3, r=0.02)
+           movej(UpM1_4)
+           set_digital_out(M2_aan,True)
+           sleep(0.5)
+           set_digital_out(M2_aan,False)
+           movej(UpM1_3, r=0.02)
+           movej(UpM1_2, r=0.02)
+           movej(UpM1_1, r=0.02)
+           movej(ApproachUp, r=0.02)
+    end
+       
+    def Tray_M1_10():
+           movej(ApproachTray, r=0.02)
+           movej(TrM1_10, r=0.02)
+           movej(TrM1_10)
+           set_digital_out(M1_uit,True)
+           sleep(0.5)
+           set_digital_out(M1_uit,False)
+           movej(ApproachTray, r=0.02)
+    end
+    
+    def Tray_M1_9():
+           movej(ApproachTray, r=0.02)
+           movej(TrM1_9, r=0.02)
+           movej(TrM1_9)
+           set_digital_out(M1_uit,True)
+           sleep(0.5)
+           set_digital_out(M1_uit,False)
+           movej(ApproachTray, r=0.02)
+    end
+    
+    def Tray_M1_8():
+           movej(ApproachTray, r=0.02)
+           movej(TrM1_8, r=0.02)
+           movej(TrM1_8)
+           set_digital_out(M1_uit,True)
+           sleep(0.5)
+           set_digital_out(M1_uit,False)
+           movej(ApproachTray, r=0.02)
+    end
+    
+    
+    def Tray_M1_7():
+           movej(ApproachTray, r=0.02)
+           movej(TrM1_7, r=0.02)
+           movej(TrM1_7)
+           set_digital_out(M1_uit,True)
+           sleep(0.5)
+           set_digital_out(M1_uit,False)
+           movej(ApproachTray, r=0.02)
+    end
+    
+    def Tray_M1_6():
+           movej(ApproachTray, r=0.02)
+           movej(TrM1_6, r=0.02)
+           movej(TrM1_6)
+           set_digital_out(M1_uit,True)
+           sleep(0.5)
+           set_digital_out(M1_uit,False)
+           movej(ApproachTray, r=0.02)
+    end
+    
+    def Tray_M1_5():
+           movej(ApproachTray, r=0.02)
+           movej(TrM1_5, r=0.02)
+           movej(TrM1_5)
+           set_digital_out(M1_uit,True)
+           sleep(0.5)
+           set_digital_out(M1_uit,False)
+           movej(ApproachTray, r=0.02)
+    end
+    
+    def Tray_M1_4():
+           movej(ApproachTray, r=0.02)
+           movej(TrM1_4, r=0.02)
+           movej(TrM1_4)
+           set_digital_out(M1_uit,True)
+           sleep(0.5)
+           set_digital_out(M1_uit,False)
+           movej(ApproachTray, r=0.02)
+    end
+    
+   def Tray_M1_3():
+          movej(ApproachTray, r=0.02)
+          movej(TrM1_3, r=0.02)
+          movej(TrM1_3)
+          set_digital_out(M2_uit,True)
+          sleep(0.5)
+          set_digital_out(M2_uit,False)
+          movej(ApproachTray, r=0.02)
+   end 
+
+   def Tray_M1_2():
+          movej(ApproachTray, r=0.02)
+          movej(TrM1_2, r=0.02)
+          movej(TrM1_2)
+          set_digital_out(M2_uit,True)
+          sleep(0.5)
+          set_digital_out(M2_uit,False)
+          movej(ApproachTray, r=0.02)
+   end 
+
+   def Tray_M1_1():
+          movej(ApproachTray, r=0.02)
+          movej(TrM1_1, r=0.02)
+          movej(TrM1_1)
+          set_digital_out(M2_uit,True)
+          sleep(0.5)
+          set_digital_out(M2_uit,False)
+          movej(ApproachTray, r=0.02)
+   end 
+
+   def Tray_M2_11():
+          movej(ApproachTray, r=0.02)
+          movej(TrM2_11, r=0.02)
+          movej(TrM2_11)
+          set_digital_out(M2_uit,True)
+          sleep(0.5)
+          set_digital_out(M2_uit,False)
+          movej(ApproachTray, r=0.02)
+   end 
+
+   def Tray_M2_12():
+          movej(ApproachTray, r=0.02)
+          movej(TrM2_12, r=0.02)
+          movej(TrM2_12)
+          set_digital_out(M2_uit,True)
+          sleep(0.5)
+          set_digital_out(M2_uit,False)
+          movej(ApproachTray, r=0.02)
+   end     
+
+    def Startup():
+        if Inductie1 == True:
+           M1_1_Oppak_Glij()
+           Overcut_Inleg_M1()  
+           if Inductie2 == True:
+              M1_2_Oppak_Glij()
+              Overcut_Uit_M2()
+              Overcut_Inleg_M1()
+              Upcut_Inleg_M2()
+           end
+        end
+    # Nu heeft elke machine een Raps en robot leeg-----------------------------------------------------
+    end
+
+   def Tray():
+       if Tray_pos == 1:
+          Tray_M1_1()
+       elif Tray_pos == 2:
+          Tray_M1_2()
+       elif Tray_pos == 3:
+          Tray_M1_3()
+       elif Tray_pos == 4:
+          Tray_M1_4()
+       elif Tray_pos == 5:
+          Tray_M1_5()
+       elif Tray_pos == 6:
+          Tray_M1_6()
+       elif Tray_pos == 7:
+          Tray_M1_7()
+       elif Tray_pos == 8:
+          Tray_M1_8()
+       elif Tray_pos == 9:
+          Tray_M1_9()
+       elif Tray_pos == 10:
+          Tray_M1_10()
+       elif Tray_pos == 11:
+          Tray_M2_11()
+       elif Tray_pos == 12:
+          Tray_M2_12()
+          Tray_pos = 1
+       end
+   end
+
+    
+       if Schakelaar == True:
+          if Knop_1 == True:
+             if Inductie1 == True:
+                if Tray_pos > 10:
+                   M2_1_Oppak_Glij()
+                   Overcut_Uit_M1()
+                   Overcut_Inleg_M2()
+                   Upcut_Uit_M2()
+                   Upcut_Inleg_M1()
+                   Tray()
+                   Tray_pos = Tray_pos + 1
+                else:
+                   M1_1_Oppak_Glij()
+                   Overcut_Uit_M2()
+                   Overcut_Inleg_M1()
+                   Upcut_Uit_M1()
+                   Upcut_Inleg_M2()
+                   Tray()
+                   Tray_pos = Tray_pos + 1
+                end
+
+             elif Inductie2 == True:
+                if Tray_pos > 10:
+                   M2_2_Oppak_Glij()
+                   Overcut_Uit_M1()
+                   Overcut_Inleg_M2()
+                   Upcut_Uit_M2()
+                   Upcut_Inleg_M1()
+                   Tray()
+                   Tray_pos = Tray_pos + 1
+                else:
+                   M1_1_Oppak_Glij()
+                   Overcut_Uit_M2()
+                   Overcut_Inleg_M1()
+                   Upcut_Uit_M1()
+                   Upcut_Inleg_M2()
+                   Tray()
+                   Tray_pos = Tray_pos + 1
+                end
+             end
+          elif Knop_2 == True:
+                if Tray_pos > 10:
+                   M2_2_Oppak_Glij()
+                   Overcut_Uit_M1()
+                   Overcut_Inleg_M2()
+                   Tray()
+                   Tray_pos = Tray_pos + 1
+                else:
+                   M1_1_Oppak_Glij()
+                   Overcut_Uit_M2()
+                   Overcut_Inleg_M1()
+                   Tray()
+                   Tray_pos = Tray_pos + 1
+                end
+          elif Knop_3 == True:
+                   if Tray_pos > 10:
+                   Tray()
+                   Tray_pos = Tray_pos + 1
+                else:
+                   M1_1_Oppak_Glij()
+                   Tray()
+                   Tray_pos = Tray_pos + 1
+                end
+          end
+       end
+    end
+  end
+end
